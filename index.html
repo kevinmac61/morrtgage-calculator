@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
     />
+
     <script
     defer
     src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
@@ -35,7 +36,7 @@
                       <div class="level-left is-marginless">
                         <div class="level-item">
                           <p class="number">1</p>
-                          Mortgage Amount
+                          Price of Home
                         </div>
                       </div>
   
@@ -44,7 +45,7 @@
                         <div class="level-item">
                           <div class="field">
                             <div class="control has-icons-left ">
-                              <input class="input" id="amount" type="number" />
+                              <input class="input" id="home-amount" type="number" />
                               <span class="icon is-small is-left">
                                 <i class="fa fa-dollar-sign"></i>
                               </span>
@@ -53,12 +54,36 @@
                         </div>
                       </div>
                     </div>
-  
+
                     <div class="level">
                       <!-- Left side -->
                       <div class="level-left is-marginless">
                         <div class="level-item">
                           <p class="number">2</p>
+                          Down Payment
+                        </div>
+                      </div>
+  
+                      <!-- Right side -->
+                      <div class="level-right">
+                        <div class="level-item">
+                          <div class="field">
+                            <div class="control has-icons-left ">
+                              <input class="input" id="down-payment" type="number" />
+                              <span class="icon is-small is-left">
+                                <i class="fa fa-dollar-sign"></i>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                   
+  
+                    <div class="level">
+                      <!-- Left side -->
+                      <div class="level-left is-marginless">
+                        <div class="level-item">
+                          <p class="number">3</p>
                           Interest Rate
                         </div>
                       </div>
@@ -78,11 +103,12 @@
                         </div>
                       </div>
                     </div>
+
                     <div class="level">
                       <!-- Left side -->
                       <div class="level-left is-marginless">
                         <div class="level-item">
-                          <p class="number">3</p>
+                          <p class="number">4</p>
                           Number Of Years
                         </div>
                       </div>
@@ -146,6 +172,7 @@
   
   </div>
   </section>  
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.2/math.js"></script>-->
     <script src="app.js"></script>
 </body>
 </html>
